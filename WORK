@@ -1,0 +1,40 @@
+# Kabadiwala AI Service
+
+AI-powered scrap material recognition service developed for the Kabadiwala recycling platform.
+
+## Team Responsibility
+
+Team Member #4 – AI/ML
+
+## Technologies Used
+
+- Python
+- YOLO11n
+- Ultralytics
+- FastAPI
+- Uvicorn
+- PyTorch
+
+## Supported Materials
+
+The model is trained to recognize:
+
+- Paper
+- Plastic
+- Glass
+- Metal
+- Organic
+- Electronics
+- Miscellaneous
+
+## Project Structure
+
+```text
+ai_service/
+├── app/
+│   ├── main.py
+│   ├── model.py
+│   └── schemas.py
+├── models/
+│   └── best.pt
+└── requirements.txt
